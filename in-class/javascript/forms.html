@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <!-- The following line is rarely used like this, so we're going to ignore it for now -->
+    <!-- <form action="https://example.com/apply" method="get"> -->
+    <form id="form">
+        <p>
+            <label for="first">First Name:</label>
+            <input type="text" name="first" id="first">
+        </p>
+        <p>
+            <label for="last">Last Name:</label>
+            <input type="text" name="last" id="last">
+        </p>
+        <p>
+            <textarea name="description" id="description" rows="5" cols="50">
+
+            </textarea>
+        </p>
+
+        <p>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password">
+            <span id="badPassword">The password is bad</span>
+        </p>
+
+        <p>
+            <label for="color">color:</label>
+            <input type="color" name="color" id="color">
+        </p>
+        <p>
+            <label for="datePicker">Month:</label>
+            <input type="date" name="date" id="datePicker">
+        </p>
+        <p>
+            <label for="telephone">Phone Number:</label>
+            <input type="tel" name="telephone" id="telephone">
+        </p>
+
+        <p>
+            <label for="browsersSelect">Browsers select:</label>
+            <select name="browsers select" id="browsersSelect">
+                <option value="Edge">Edge</option>
+                <option value="Firefox">Firefox</option>
+                <option value="Chrome">Chrome</option>
+                <option value="Opera">Opera</option>
+                <option value="Safari">Safari</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="browsersListbox">Browsers Listbox:</label>
+            <select name="browsers select" id="browsersListbox" size="4">
+                <option value="Edge">Edge</option>
+                <option value="Firefox">Firefox</option>
+                <option value="Chrome">Chrome</option>
+                <option value="Opera">Opera</option>
+                <option value="Safari">Safari</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="browsers">Browsers datalist:</label>
+            <input type="text" list="browserList" name="browsers" id="browsers">
+            <datalist id="browserList">
+                <option value="Edge">
+                <option value="Firefox">Second best</option>
+                <option value="Chrome">The favorite child</option>
+                <option value="Opera">who?</option>
+                <option value="Safari">Apple Only</option>
+            </datalist>
+        </p>
+
+        <fieldset>
+            <legend>favorite color</legend>
+
+            <input type="radio" name="color" value="Red" id="red">
+            <label for="theOffice">Red</label>
+
+            <input type="radio" name="color" value="Green" id="green">
+            <label for="community">Green</label>
+
+            <input type="radio" name="color" value="Yellow" id="yellow">
+            <label for="bigBang">Yellow</label>
+
+            <input type="radio" name="color" value="Blue" id="blue">
+            <label for="other">Blue</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>laste favorite colors</legend>
+
+            <input type="checkbox" name="color" value="Red" id="red">
+            <label for="theOffice">Red</label>
+
+            <input type="checkbox" name="color" value="Green" id="green">
+            <label for="community">Green</label>
+
+            <input type="checkbox" name="color" value="Yellow" id="yellow">
+            <label for="bigBang">Yellow</label>
+
+            <input type="checkbox" name="color" value="Blue" id="blue">
+            <label for="other">Blue</label>
+        </fieldset>
+
+        <button type="button">Click me!</button>
+
+        <input type="submit">
+    </form>
+
+
+    <script src="forms.js"></script>
+</body>
+
+</html>

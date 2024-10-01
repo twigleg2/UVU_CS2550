@@ -1,0 +1,24 @@
+:root {
+    font-size: 3em;
+    --pColor: red;
+}
+
+#box {
+    color: purple;
+}
+
+div {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+div p {
+    color: var(--pColor);
+    /* color: red; */
+}
+
+/* outside scope, using fallback color */
+p {
+    color: var(--pColor, blue);
+}

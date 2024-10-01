@@ -1,0 +1,19 @@
+{
+  "name": "pokeapp",
+  "version": "1.0.0",
+  "description": "A simple first attempt at a web server",
+  "main": "app.js",
+  "scripts": {
+    "dev-start": "nodemon app.js"
+  },
+  "author": "Gaven Finch",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "pokedex": "^1.1.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.0"
+  }
+}

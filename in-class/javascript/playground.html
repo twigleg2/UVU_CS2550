@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="playground.js"></script>
+</head>
+
+<body>
+
+    <div id="first" class="first" onclick="handleThis(this)">
+        <p onclick="handleAnother(this)">click this to pass `this` into the handler</p>
+    </div>
+
+    <div id="second" class="second" onclick="handleEvent(event)">
+        <p>click this to pass `event` into the handler</p>
+    </div>
+</body>
+
+</html>

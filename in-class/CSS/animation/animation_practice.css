@@ -1,0 +1,269 @@
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.inClass {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    animation-name: squareToCircle;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+
+@keyframes squareToCircle {
+    from {
+        border-radius: 0px;
+    }
+
+    to {
+        border-radius: 50%;
+    }
+}
+
+.inClassSpinner {
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    background-color: white;
+    border-style: solid;
+    border-top-color: brown;
+    border-width: 10px;
+    animation-name: newSpinner;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes newSpinner {
+    50% {
+        rotate: 180deg;
+    }
+
+    100% {
+        rotate: 360deg;
+    }
+}
+
+
+.firstExample {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    animation-name: redToYellow;
+    animation-duration: 2s;
+    /* animation-direction: alternate; */
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+}
+
+@keyframes redToYellow {
+    0% {
+        background-color: red;
+        top: 0px;
+        left: 0px;
+    }
+
+    25% {
+        background-color: purple;
+        top: 200px;
+        left: 0;
+    }
+
+    50% {
+        background-color: chocolate;
+        top: 200px;
+        left: 200px;
+    }
+
+    75% {
+        background-color: black;
+        top: 0px;
+        left: 200px;
+    }
+
+    100% {
+        background-color: yellow;
+        top: 0px;
+        left: 0px;
+    }
+}
+
+
+
+
+@keyframes colorshift {
+    from {
+        background-color: red;
+    }
+
+    to {
+        background-color: blueviolet;
+        border-radius: 30px;
+    }
+}
+
+.first {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: colorshift;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.spinner {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-width: 10px;
+    border-style: solid;
+    border-color: gray;
+    border-top-color: black;
+    animation-name: rotate;
+    animation-duration: 1.25s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.spinner:hover {
+    animation-play-state: paused;
+}
+
+@keyframes rotate {
+    50% {
+        rotate: 180deg;
+    }
+
+    100% {
+        rotate: 360deg
+    }
+}
+
+
+/* ------------------- */
+
+.sclera {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50%;
+    z-index: 0;
+    position: relative;
+    animation-name: bottomcircle;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.iris {
+    height: 75px;
+    width: 75px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    z-index: 1;
+    position: relative;
+    left: 12.5%;
+}
+
+.pupil {
+    background-color: black;
+    border-radius: 50%;
+    height: 50%;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    top: 25%;
+}
+
+@keyframes bottomcircle {
+    50% {
+        rotate: 180deg;
+    }
+
+    100% {
+        rotate: 360deg;
+    }
+}
+
+.outerCircle {
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    animation-name: moon;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    margin: 10px;
+}
+
+.innerCircle {
+    background-color: white;
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+}
+
+@keyframes moon {
+    50% {
+        rotate: 180deg;
+    }
+
+    100% {
+        rotate: 360deg;
+    }
+
+}
+
+
+
+.newSpinner {
+    height: 100px;
+    animation-name: spinner;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spinner {
+    0% {
+        rotate: 0deg;
+    }
+
+    100% {
+        rotate: 360deg;
+    }
+}
+
+.text:hover {
+    font-size: 1em;
+    animation-name: bigger;
+    animation-duration: 2s;
+    /* animation-play-state: paused; */
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+
+}
+
+/* .text :hover {
+    animation-play-state: running;
+} */
+
+@keyframes bigger {
+    0% {
+        font-size: 1em;
+    }
+
+    100% {
+        font-size: 2em;
+    }
+}

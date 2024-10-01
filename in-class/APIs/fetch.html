@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            font-size: 2em;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>This is a playground for learning how to use the <a href="https://pokeapi.co/" target="_blank">pokeapi</a></h1>
+    <h2>Move and Berry have not been implemented, and are left as an exercise for you</h2>
+    <br>
+
+    <form>
+        <select id="dropDown" name="dropDown">
+            <option value="pokemon">Pokemon</option>
+            <option value="move">Move</option>
+            <option value="item">Item</option>
+            <option value="berry">Berry</option>
+        </select>
+        <input type="text" id="pokemonName" name="pokemonName">
+        <input type="submit" id="submit">
+    </form>
+
+    <p id="pokemon"></p>
+
+    <img id="sprite" src="">
+
+
+
+    <script src="fetch.js"></script>
+</body>
+
+</html>

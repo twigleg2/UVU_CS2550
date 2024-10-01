@@ -1,0 +1,61 @@
+div {
+    border-style: solid;
+    border-width: 2px;
+    margin: 20px;
+    padding: 5px;
+    font-size: 1.3em;
+}
+
+.outerBox {
+    background-color: rgb(194, 194, 194);
+    height: 4000px;
+    position: relative;
+    z-index: -10;
+}
+
+.static {
+    background-color: #f3f0c7;
+    /* position: static; */
+}
+
+.relative {
+    background-color: #cfb79e;
+    position: relative;
+    /* top: 40px; */
+    /* z-index: 1; */
+}
+
+.absolute {
+    background-color: #7fffd4;
+    /* position: absolute; */
+
+    /* top: 0px; */
+    /* z-index: -1; */
+}
+
+.fixed {
+    background-color: #92ad63;
+    /* position: fixed;
+    bottom: 10px; */
+}
+
+.sticky {
+    background-color: #64a1df;
+    /* position: sticky; */
+    top: 10px;
+    z-index: 2;
+}
+
+
+.container {
+    position: relative;
+    background-color: rgb(235, 35, 35);
+    /* left: 100px; */
+}
+
+.child_1 {
+    /* position: absolute; */
+    background-color: pink;
+    /* top: 0px; */
+    font-size: inherit;
+}
