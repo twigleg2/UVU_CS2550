@@ -1,5 +1,3 @@
-
-
 function saySomething(variable, callback) {
     callback(variable);
 }
@@ -154,11 +152,41 @@ isPalindrome;
 
 
 // const FIBONACCI = [0, 1, 1, 2, 3, 5, 8, 13, 21];
+let average = FIBONACCI.reduce(add) / FIBONACCI.length;
 
 function greaterThanAverage(item) {
-    let average = FIBONACCI.reduce(add) / FIBONACCI.length;  // innoficcient, because this is re-calculated every time;
     return item > average;
 }
 
 let result = FIBONACCI.filter(greaterThanAverage);
 result;
+
+
+
+
+
+
+
+
+const DIGITS = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
+let NUMBERS_AND_WORDS = {
+    1: "one",
+    2: "two",
+    3: "three",
+    4: "four",
+    5: "five",
+    6: "six",
+    7: "seven",
+    8: "eight",
+    9: "nine",
+    0: "zero",
+}
+
+let answer = DIGITS
+    .map(number => NUMBERS_AND_WORDS[number])
+    .filter(word => word.length > 3)
+    .map(word =>
+        Object.keys(NUMBERS_AND_WORDS).find(key => NUMBERS_AND_WORDS[key] === word)
+    )
+
+answer

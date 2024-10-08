@@ -8,10 +8,24 @@
 
 Syntax:
 ```
-@media not|only mediatype and (media feature) and (media feature) {
+@media not|only mediatype and (media-feature) and (media-feature) {
   CSS-Code;
 }
 ```
+
+### mediatype
+- screen
+- print
+- all
+
+### media-feature
+- orientation - `landscape` or `portrait`
+- max-height	
+- min-height	
+- height	
+- max-width	
+- min-width	
+- width
 
 ### Linking multiple Style sheets
 

@@ -21,6 +21,9 @@ Many times, Anonymous functions are used as a callback.
 ```
 saySomething("Bob", function(name){console.log("How old are you " + name + "?")})
 ```
+```
+saySomething("Suzie", (n) => {console.log("Hi " + n)})
+```
 #### Why is this useful?
 Callback functions shine in Asynchronous Programming and in Functional Programming.  They also provide the flexibility to create an anonymous function in-line instead of using a pre-defined function.
 

@@ -1,19 +1,21 @@
-1. Champion Dog Breed-Ibizan Hound Male AKC Registered Multiple Awards Sired a few litters Certificates ( health, eyes, vaccinations, ect.)
+# Website ideas with possible main content tabs:
 
-2. New Restaurant Menu Ordering Reviews Comments About Location/map
+1. Champion Dog - about the dog / about the breed / Awards / Litters Sired / health Certificates ( hips, eyes, vaccinations, ect.)
 
-3. Traveling Photographer Portfolio Booking/Availability About Locations
+2. New Restaurant - Menu / Ordering / Reviews / Comments / About / Locations and map
 
-4. Cleaning Company About Service & Prices Locations Served Info on process Info on products
+3. Traveling Photographer - Portfolio / Booking and Availability / About / Locations
 
-5. Artist About For sale Portfolio- different mediums Contact/commission page Information
+4. Cleaning Company - About / Service & Prices / Locations Served / Info on process / Info on products
 
-6. Clothing store About Dresses Shirts Bottoms Accessories A way to filter items Checkout cart What sales made info
+5. Artist - About / For sale Portfolio / different mediums / commission structure / Information and contact
 
-7. Fan page! Welcome Celebrity tracker (event calendar) Sign up for news and notifications Fun facts Fan chat box
+6. Clothing store - About / Dresses Shirts / Bottoms / Accessories / Checkout / cart /
 
-8. Website dedicated to selling soda, exotics flavors page, reviews page for sodaliciious, swig, fizz, etc, 
+7. Fan page - Welcome / Celebrity tracker / event calendar / Sign up for news and notifications / Fun facts / Fan chat box
 
-9. Video game web page.  Maybe for finding players to party with, for advertising in game items for trade, wiki page, etc.
+8. Candy and Soda - exotics flavors / reviews page / competitors offerings compared (sodaliciious, swig, fizz, etc, )
 
-10. Website for selling cactuses
+9. Video game web page -  finding players to party with / advertise in game items for trade / wiki page
+
+10. Website for selling desk plants
