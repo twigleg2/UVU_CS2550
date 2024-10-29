@@ -182,7 +182,12 @@ makeApiCall(searchEngine, query).then(successCallback);
 The `await` keyword to can only be used inside of an `async` function.  `await` will make the function pause execution and wait for a promise to resolve before it continues.
 ```
 async function GetSearchResult(searchEngine, query) {
-  const response = await MakeApiCall(searchEngine, query);
+  try {
+    const response = await MakeApiCall(searchEngine, query);
+  }
+  catch{
+    //promise failed, do something
+  }
 
   document.getElementById("firstSearchResult").innerHTML =  response[0];
 }
