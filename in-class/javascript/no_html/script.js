@@ -1,4 +1,4 @@
-//Check out the HTML file and notice that it has nothing inside the <body> tag.  We're going to add all out HTML using javascript!
+//look at the HTML file and notice that it has nothing inside the <body> tag.  We're going to add all out HTML using javascript!
 
 // First, we need to get the element that we want to add children to.
 let body = document.getElementById("body");
